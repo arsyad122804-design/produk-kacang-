@@ -24,7 +24,7 @@
         @yield('content') </div>
 
     <footer class="text-center mt-5 py-3 bg-light">
-        <p>&copy; 2024 Projek Produk Kacang - {{ auth()->user()->name ?? 'Guest' }}</p>
+        <p>&copy; 2026 Projek Produk Kacang - {{ auth()->user()->name ?? 'Guest' }}</p>
     </footer>
 </body>
 </html>
