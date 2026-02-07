@@ -1,67 +1,77 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="container">
-    <h2 class="text-center my-4 fw-bold">Tim Pengembang Produk Kacang</h2>
-    <p class="text-center text-muted mb-5">Kenali lebih dekat orang-orang hebat di balik layar.</p>
+<div class="text-center py-5">
+    <h2 class="fw-bold">Anngota <span class="text-success">Kacang Berkah</span></h2>
+    <p class="text-muted">Kenalan yuk sama enam orang keren di balik layar proyek ini!</p>
+</div>
 
-    <div class="row text-center">
-        <div class="col-md-4 mb-4">
-            <div class="card border-0 shadow-sm">
-                <img src="https://ui-avatars.com/api/?name=Sayyid&background=random&size=128" class="card-img-top rounded-circle mx-auto mt-4" style="width: 120px;" alt="Sayyid">
-                <div class="card-body">
-                    <h5 class="fw-bold">Sayyid</h5>
-                    <p class="text-primary">Lead Developer</p>
-                </div>
+<div class="row justify-content-center g-4 mb-4">
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm text-center p-4 h-100">
+            <div class="mb-3">
+                <img src="https://ui-avatars.com/api/?name=Anggota+1&background=FFC107&color=fff&size=150" class="rounded-circle shadow" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid #fff;">
             </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="card border-0 shadow-sm">
-                <img src="https://ui-avatars.com/api/?name=Naufal&background=random&size=128" class="card-img-top rounded-circle mx-auto mt-4" style="width: 120px;" alt="Naufal">
-                <div class="card-body">
-                    <h5 class="fw-bold">Naufal</h5>
-                    <p class="text-primary">UI/UX Designer</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-4">
-            <div class="card border-0 shadow-sm">
-                <img src="https://ui-avatars.com/api/?name=Fikri&background=random&size=128" class="card-img-top rounded-circle mx-auto mt-4" style="width: 120px;" alt="Fikri">
-                <div class="card-body">
-                    <h5 class="fw-bold">Fikri</h5>
-                    <p class="text-primary">Backend Developer</p>
-                </div>
-            </div>
+            <h6 class="fw-bold mb-1">Nama Anggota 1</h6>
+            <p class="text-success small fw-bold mb-2">Project Leader</p>
+            <p class="text-muted small mb-0">"Memastikan semua kacang tetap garing dan kode tetap running."</p>
         </div>
     </div>
 
-    <div class="row text-center mt-3">
-        <div class="col-md-4 mb-4">
-            <div class="card border-0 shadow-sm">
-                <img src="https://ui-avatars.com/api/?name=Revo&background=random&size=128" class="card-img-top rounded-circle mx-auto mt-4" style="width: 120px;" alt="Revo">
-                <div class="card-body">
-                    <h5 class="fw-bold">Revo</h5>
-                    <p class="text-primary">Quality Assurance</p>
-                </div>
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm text-center p-4 h-100">
+            <div class="mb-3">
+                <img src="https://ui-avatars.com/api/?name=Anggota+2&background=28A745&color=fff&size=150" class="rounded-circle shadow" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid #fff;">
             </div>
+            <h6 class="fw-bold mb-1">Nama Anggota 2</h6>
+            <p class="text-success small fw-bold mb-2">UI Designer</p>
+            <p class="text-muted small mb-0">"Bikin tampilan web seestetik warna kacang bawang pilihan."</p>
         </div>
-        <div class="col-md-4 mb-4">
-            <div class="card border-0 shadow-sm">
-                <img src="https://ui-avatars.com/api/?name=Salman&background=random&size=128" class="card-img-top rounded-circle mx-auto mt-4" style="width: 120px;" alt="Salman">
-                <div class="card-body">
-                    <h5 class="fw-bold">Salman</h5>
-                    <p class="text-primary">Content Writer</p>
-                </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm text-center p-4 h-100">
+            <div class="mb-3">
+                <img src="https://ui-avatars.com/api/?name=Anggota+3&background=17A2B8&color=fff&size=150" class="rounded-circle shadow" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid #fff;">
             </div>
+            <h6 class="fw-bold mb-1">Nama Anggota 3</h6>
+            <p class="text-success small fw-bold mb-2">Backend Dev</p>
+            <p class="text-muted small mb-0">"Ngelas database biar data pelanggan aman terkendali."</p>
         </div>
-        <div class="col-md-4 mb-4">
-            <div class="card border-0 shadow-sm">
-                <img src="https://ui-avatars.com/api/?name=Dzaky&background=random&size=128" class="card-img-top rounded-circle mx-auto mt-4" style="width: 120px;" alt="Dzaky">
-                <div class="card-body">
-                    <h5 class="fw-bold">Dzaky</h5>
-                    <p class="text-primary">Marketing Specialist</p>
-                </div>
+    </div>
+</div>
+
+<div class="row justify-content-center g-4">
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm text-center p-4 h-100">
+            <div class="mb-3">
+                <img src="https://ui-avatars.com/api/?name=Anggota+4&background=E83E8C&color=fff&size=150" class="rounded-circle shadow" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid #fff;">
             </div>
+            <h6 class="fw-bold mb-1">Nama Anggota 4</h6>
+            <p class="text-success small fw-bold mb-2">Frontend Dev</p>
+            <p class="text-muted small mb-0">"Tukang ngerapiin Blade CSS biar enak dipandang."</p>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm text-center p-4 h-100">
+            <div class="mb-3">
+                <img src="https://ui-avatars.com/api/?name=Anggota+5&background=6F42C1&color=fff&size=150" class="rounded-circle shadow" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid #fff;">
+            </div>
+            <h6 class="fw-bold mb-1">Nama Anggota 5</h6>
+            <p class="text-success small fw-bold mb-2">Content Writer</p>
+            <p class="text-muted small mb-0">"Penyusun kata-kata manis yang bikin pembeli laper."</p>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm text-center p-4 h-100">
+            <div class="mb-3">
+                <img src="https://ui-avatars.com/api/?name=Anggota+6&background=FD7E14&color=fff&size=150" class="rounded-circle shadow" style="width: 100px; height: 100px; object-fit: cover; border: 3px solid #fff;">
+            </div>
+            <h6 class="fw-bold mb-1">Nama Anggota 6</h6>
+            <p class="text-success small fw-bold mb-2">Quality Control</p>
+            <p class="text-muted small mb-0">"Tukang cek produk & bug sampai bener-bener bersih."</p>
         </div>
     </div>
 </div>
