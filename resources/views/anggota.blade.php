@@ -71,7 +71,7 @@
             </div>
             <h6 class="fw-bold mb-1">ficri</h6>
             <p class="text-success small fw-bold mb-2">Quality Control</p>
-            <p class="text-muted small mb-0">"Tukang cek produk & bug sampai bener-bener bersih."</p>
+            <p class="text-muted small mb-0">"Tukang cek produk & bug sampai bener-bener aman."</p>
         </div>
     </div>
 </div>
